@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "OVERWATCH";
+    src: url("FUENTES/OVERWATCH/OVERWATCH.ttf") format("truetype");
+}
+.titulo{
+    height: 20%;
+    text-align: center;
+    font-family: "OVERWATCH", sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(230, 230, 230);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    background-color: rgb(247, 154, 16);
+    border:1px;
+    border-style: solid;
+    border-color: black;
+}
+a{
+    color: white;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  h1:hover {
+    color: rgb(141, 255, 249);
+    transition: color 0.5s ease-in-out;
+  }
