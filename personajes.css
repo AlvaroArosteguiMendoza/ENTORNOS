@@ -1,0 +1,27 @@
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .personaje {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .personaje img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .personaje h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .personaje p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }

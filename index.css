@@ -2,6 +2,9 @@
     font-family: "OVERWATCH";
     src: url("FUENTES/OVERWATCH/OVERWATCH.ttf") format("truetype");
 }
+html{
+    background-image: url(imagenes/uwu.jpg);
+}
 .titulo{
     height: 20%;
     text-align: center;
@@ -10,18 +13,20 @@
     text-shadow: 2px 2px 3px black;
     color: rgb(230, 230, 230);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    background-color: rgb(247, 154, 16);
-    border:1px;
-    border-style: solid;
-    border-color: black;
 }
 a{
     color: white;
 }
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
 button {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    background-color: black;
+    background-color: rgb(236, 182, 63);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -34,6 +39,127 @@ button {
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
   }
   h1:hover {
-    color: rgb(141, 255, 249);
+    color: rgb(236, 182, 63);
     transition: color 0.5s ease-in-out;
+  }
+  .carousel {
+    display: block;
+    position: absolute;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin: 0px auto 0;
+    height: 50%;
+    width: 100%;
+  }
+  
+  .carousel-inner {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 12px 12px 12px rgba(255, 255, 255, 0.363);
+  }
+  
+  .carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+  }
+  
+  .carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+  }
+  
+  .carousel-control.prev {
+    left: 2%;
+  }
+  
+  .carousel-control.next {
+    right: 2%;
+  }
+  
+  .carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+  }
+  
+  #carousel-1:checked ~ .control-1,
+  #carousel-2:checked ~ .control-2,
+  #carousel-3:checked ~ .control-3 {
+    display: block;
+  }
+  
+  .carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+  }
+  
+  .carousel-bullet:hover {
+    color: #aaaaaa;
+  }
+  
+  #carousel-1:checked
+    ~ .control-1
+    ~ .carousel-indicators
+    li:nth-child(1)
+    .carousel-bullet,
+  #carousel-2:checked
+    ~ .control-2
+    ~ .carousel-indicators
+    li:nth-child(2)
+    .carousel-bullet,
+  #carousel-3:checked
+    ~ .control-3
+    ~ .carousel-indicators
+    li:nth-child(3)
+    .carousel-bullet {
+    color: #ca7f42;
   }
