@@ -1,13 +1,45 @@
+@font-face {
+  font-family: "OVERWATCH";
+  src: url("FUENTES/OVERWATCH/OVERWATCH.ttf") format("truetype");
+}
+.titulo{
+  height: 20%;
+  text-align: center;
+  font-family: "OVERWATCH", sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px black;
+  color: rgb(230, 230, 230);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+h1:hover {
+  color: rgb(236, 182, 63);
+  transition: color 0.5s ease-in-out;
+}
 .personajes {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
   }
   
   .personaje {
-    width: 300px;
+    width: 280px;
     margin: 20px;
     border: 1px solid #ccc;
     padding: 20px;
+    box-shadow: 20px solid black;
+    box-shadow:
+    0 0 5px #fff,
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px rgb(255, 255, 255), 
+    0 0 25px rgb(248, 248, 248), 
+    inset 0 0 10px rgba(255,255,255,0.3); 
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background: linear-gradient(to bottom, #7facdf, #c9eaff);
+    border-radius: 3%;
+    color: black;
   }
   
   .personaje img {
@@ -25,3 +57,37 @@
     font-size: 16px;
     line-height: 1.5;
   }
+  h2{
+    text-align: center;
+    color: rgb(236, 182, 63);
+  }
+  p{
+    text-justify: auto;
+  }
+  .botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  background-color: rgb(236, 182, 63);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+a{
+  color: white;
+}
+html{
+  background: linear-gradient(to bottom, #0166d1, #87cefa)
+}
