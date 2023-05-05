@@ -59,7 +59,9 @@ h1:hover {
   }
   h2{
     text-align: center;
-    color: rgb(236, 182, 63);
+    color: rgb(246, 250, 31);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke: 1px rgb(236, 182, 63);
   }
   p{
     text-justify: auto;
@@ -91,3 +93,15 @@ a{
 html{
   background: linear-gradient(to bottom, #0166d1, #87cefa)
 }
+
+.personaje {
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.personaje:hover {
+  transform: scale(1.2);
+}
+
+ 
+
