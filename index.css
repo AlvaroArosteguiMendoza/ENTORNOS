@@ -167,7 +167,7 @@ button {
 .icono{
   width: 50px;
   height: 50px;
-
+  transition: transform 0.3s ease;
 }
 .iconos{
 			width: 100%;
@@ -181,3 +181,11 @@ button {
 .icono:hover {
   transform: scale(1.2);
 }
+button {
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
