@@ -1,0 +1,128 @@
+
+@font-face {
+    font-family: "overwatchmenu";
+    src: url("FUENTES/overwatchmenu/overwatchmenu2.ttf") format("truetype");
+}
+html{
+    background-color: #ffd9ba;
+}
+body {
+    font-family: "overwatchmenu", "sans-serif";
+    margin: 0;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: "overwatchmenu", "sans-serif";
+}
+a{
+    color: #ff8513;
+}
+button:hover {
+    transform: scale(1.1);
+  }
+button {
+    display: inline-block;
+    background-color: rgb(245, 255, 252);
+    color: rgb(212, 145, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    font-family: "overwatchmenu", "sans-serif";
+    transition: transform 0.3s ease;
+  }
+.nombremapa{
+    font-family: "overwatchmenu", "sans-serif";
+    font-size: 300%;
+}
+  
+header {
+    background-color: #ffb269;
+    color: #fff;
+    padding: 20px;
+  }
+  .titulomapas{
+    font-family: "overwatchmenu", "sans-serif";
+    font-size: 550%;
+    height: 20%;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+  }
+  .titulomapas:hover{
+        color: rgb(122, 255, 248);
+        transition: color 0.5s ease-in-out;     
+  }
+  .navmapas{
+    font-family: "overwatchmenu", "sans-serif";
+    font-size: 400%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+.zeny{
+  position: relative;
+  left: 520px;  
+
+}
+.zeny:hover{
+    transform: rotate(90turn);
+    transition: all .10s ease-in-out;
+    
+}
