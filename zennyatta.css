@@ -4,7 +4,7 @@
     src: url("FUENTES/overwatchmenu/overwatchmenu2.ttf") format("truetype");
 }
 html{
-    background-color: #ffd9ba;
+background-image: url(imagenes/zeny8.jfif);
 }
 body {
     font-family: "overwatchmenu", "sans-serif";
@@ -125,4 +125,11 @@ header {
     transform: rotate(90turn);
     transition: all .10s ease-in-out;
     
+}
+p{
+    color:white;
+}
+.zeni{
+    width: 300px;
+    height: 300px;
 }
