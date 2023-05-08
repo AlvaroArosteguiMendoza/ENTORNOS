@@ -2,6 +2,10 @@
   font-family: "OVERWATCH";
   src: url("FUENTES/OVERWATCH/OVERWATCH.ttf") format("truetype");
 }
+@font-face {
+  font-family: "overwatchmenu";
+  src: url("FUENTES/overwatchmenu/overwatchmenu.ttf") format("truetype");
+}
 .titulo{
   height: 20%;
   text-align: center;
@@ -46,25 +50,20 @@ h1:hover {
     width: 100%;
     height: auto;
   }
-  
-  .personaje h2 {
-    margin-top: 20px;
-    font-size: 24px;
-  }
-  
+
   .personaje p {
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.5;
+    text-justify: auto;
   }
   h2{
+    margin-top: 20px;
+    font-family: "overwatchmenu", sans-serif;
     text-align: center;
-    color: rgb(246, 250, 31);
+    color: rgb(236, 182, 63);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    -webkit-text-stroke: 1px rgb(236, 182, 63);
-  }
-  p{
-    text-justify: auto;
+    font-size: 200%;
   }
   .botones{
     display: flex;
@@ -102,6 +101,26 @@ html{
 .personaje:hover {
   transform: scale(1.2);
 }
+.icono{
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
 
- 
+}
+.iconos{
+			width: 100%;
+			height: 50px;
+			color: white;
+			text-align: center;
+}
+.icono:hover {
+  transform: scale(1.2);
+}
+button {
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
 
