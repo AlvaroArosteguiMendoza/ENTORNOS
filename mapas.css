@@ -1,12 +1,36 @@
+@font-face {
+    font-family: "OVERWATCH";
+    src: url("FUENTES/OVERWATCH/OVERWATCH.ttf") format("truetype");
+}
+html{
+    background-color: #ffd9ba;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
   }
+.nombremapa{
+    font-family: "overwatch", "sans-serif";
+}
   
-  header {
-    background-color: #333;
+header {
+    background-color: #ffb269;
     color: #fff;
     padding: 20px;
+  }
+  .titulomapas{
+    font-family: "OVERWATCH", "sans-serif";
+    height: 20%;
+    text-align: center;
+    font-family: "OVERWATCH", sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(230, 230, 230);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+  .titulomapas:hover{
+        color: rgb(122, 255, 248);
+        transition: color 0.5s ease-in-out;     
   }
   
   nav ul {
