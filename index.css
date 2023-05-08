@@ -167,13 +167,17 @@ button {
 .icono{
   width: 50px;
   height: 50px;
+
 }
 .iconos{
-  position: relative;
-			bottom: 0;
 			width: 100%;
 			height: 50px;
 			color: white;
 			text-align: center;
-			padding-top: 15px;
+}
+.cuerpo{
+  width: 100%;
+}
+.icono:hover {
+  transform: scale(1.2);
 }
